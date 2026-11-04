@@ -7,6 +7,10 @@
 ## 从零开始
 
 ```bash
+# 0. 这个仓库
+git clone https://github.com/yxxbc/haruhikage-ios-probe.git
+cd haruhikage-ios-probe
+
 # 1. 主仓库要先在旁边（框架从这里取代码）
 git clone https://github.com/yxxbc/haruhikage-app.git ../mygo-cloudmusic
 
