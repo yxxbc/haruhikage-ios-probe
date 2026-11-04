@@ -1,0 +1,14 @@
+# Built from ./all by build-framework.sh: 54 MB of binary that the source
+# makes in a minute, and that would otherwise be committed again on every
+# rebuild.
+All.xcframework/
+Probe.xcframework/
+Lyrics.xcframework/
+
+# xcodegen writes this from project.yml; a project file in the repository
+# conflicts with the one generated from it.
+ProbeApp/ProbeApp.xcodeproj/
+
+DerivedData/
+.build/
+*.xcuserstate
